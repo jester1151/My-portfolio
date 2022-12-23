@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main {
+  width: 1400px;
+  margin: auto;
+}
+.pages {
+  width: 100%;
+  height: 1100px;
+  background-color: #03384a;
+  padding: 55px 270px 160px 200px;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.second {
+  width: 1000px;
+  display: flex;
+}
+.man-style {
+  width: 400px;
+  height: 580px;
+  margin: 35px;
+}
+
+.name {
+  border: 1px solid #094556;
+  background: #094556;
+  border-radius: 30px;
+  padding: 16px 30px;
+  font-family: "Schoolbell";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.ramka-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 80px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.ramka-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #849499;
+  margin-bottom: 50px;
+}
+.ramka {
+  margin-top: 120px;
+}
+.hire {
+  background: #ffa63a;
+  border-radius: 25px;
+  padding: 16px 35px;
+  margin-right: 50px;
+  border: none;
+}
+.work {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  background-color: #03384a;
+  color: #b6cdd5;
+  border: none;
+}
+.header-style {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #b3c6cc;
+  display: flex;
+  margin-right: 50px;
+  padding-left: 150px;
+  margin-right: 200px;
+  text-decoration: none;
+}
+.header-style a {
+  margin-right: 50px;
+  color: #b6cdd5;
+  text-decoration: none;
+}
+.yakka {
+  text-decoration: underline;
+}
+.tugma {
+  background: #145e76;
+  border-radius: 25px;
+  padding: 14px 35px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+  border: none;
+}
+.number {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h3 {
+  padding: 55px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: #265a6a;
+}
+.jadval {
+  margin-top: 220px;
+  border: 2px;
+  height: 260px;
+  background: #ffffff;
+  box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+}
+.section1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 22px;
+  color: #08546c;
+  margin-bottom: 25px;
+}
+.section2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 22px;
+  color: #08546c;
+  margin-bottom: 25px;
+}
+.section3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 22px;
+  color: #08546c;
+  margin-bottom: 25px;
+}
+.section4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 22px;
+  color: #08546c;
+  margin-bottom: 25px;
+}
+.sum1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #08546c;
+}
+.sum2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #08546c;
+}
+.sum3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #08546c;
+}
+.sum4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #08546c;
+}
+.pages2 {
+  width: 100%;
+  margin-top: 300px;
+  height: 650px;
+}
+.service {
+  text-align: center;
+  font-family: "Schoolbell";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #265a6a;
+  margin-bottom: 30px;
+}
+.title2 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  color: #08546c;
+  margin: auto;
+  width: 550px;
+  height: 120px;
+  margin-bottom: 70px;
+}
+.new {
+  display: flex;
+  width: 1300px;
+
+  align-items: center;
+  gap: 30px;
+  margin: 0px auto;
+}
+.new-page {
+  width: 300px;
+  height: 251px;
+  background: #ffffff;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+  padding: 30px 34px;
+}
+.new-page img {
+  width: 50px;
+  height: 50px;
+}
+.new-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0f1221;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.new-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #696969;
+}
+.new-extra {
+  width: 300px;
+  height: 251px;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+  padding: 30px 34px;
+  background: #08546c;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+}
+.portfolio {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  color: #08546c;
+}
+.matn p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #757575;
+}
+.matn {
+  width: 570px;
+  height: 55px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.second-image {
+  width: 500px;
+  height: 385px;
+  box-shadow: 0px 43px 30px rgba(0, 0, 0, 0.256);
+}
+.design {
+  margin-top: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 29px;
+  color: #08546c;
+  margin-bottom: 10px;
+}
+.ovoz {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+  width: 427px;
+  height: 77px;
+  margin-bottom: 20px;
+}
+.read {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #08546c;
+}
+.setup {
+  display: flex;
+  gap: 15px;
+}
+.pages3 {
+  width: 100%;
+  margin: auto;
+}
+.second-page {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 140px;
+  row-gap: 70px;
+  justify-content: center;
+}
+.zzz {
+  width: 550px;
+  height: 400px;
+  margin-bottom: 200px;
+}
+.setup a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #08546c;
+  text-decoration: none;
+}
+.setup .because {
+  color: #ffa800;
+  text-decoration: none;
+}
+.pages4 {
+  width: auto;
+  height: 730px;
+  background-color: #03384a;
+  margin-top: 100px;
+}
+.better {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.text3 {
+  margin-top: 33px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 515px;
+  height: 150px;
+}
+.text4 {
+  margin-top: 33px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #aabfc6;
+}
+.mans-image {
+  padding: 102px 0px 102px 100px;
+}
+.last {
+  width: 1260px;
+  height: 400px;
+  margin: 113px auto 0px;
+  display: flex;
+  gap: 170px;
+}
+.last-text {
+  width: 344px;
+  height: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #757575;
+  margin-top: 21px;
+  margin-bottom: 100px;
+}
+.last-page img {
+  margin-right: 15px;
+}
+.cccc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #08546c;
+  margin-bottom: 28px;
+}
+.last-two h4 {
+  margin-bottom: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #787878;
+}
